@@ -1,0 +1,81 @@
+/* Style.css */
+
+/* General page styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2e2e2e;
+    color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #3e3e3e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #f0ad4e;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    margin: 20px 0;
+}
+
+textarea {
+    width: 97%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #2e2e2e;
+    color: #d3d3d3;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #f0ad4e;
+    color: #2e2e2e;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ec971f;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #4e4e4e;
+    color: #d3d3d3;
+}
+
+table, th, td {
+    border: 1px solid #555;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #5e5e5e;
+}
+
